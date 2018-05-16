@@ -6,4 +6,4 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
   server:
-    waitTimeInMsWhenSyncEmpty: 0
+    waitTimeInMsWhenSyncEmpty: 10
