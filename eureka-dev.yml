@@ -8,4 +8,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:${server.port}/eureka/
   server:
-    waitTimeInMsWhenSyncEmpty: 0
+    enableSelfPreservation: false
+  instance:  
+    leaseRenewalIntervalInSeconds: 1  
+    leaseExpirationDurationInSeconds: 2  
