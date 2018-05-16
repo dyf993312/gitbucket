@@ -1,7 +1,9 @@
 info:
   profile: dev
+  
 server:
   port : 5500
+
 eureka:
   client:
     serviceUrl:
