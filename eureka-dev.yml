@@ -7,8 +7,6 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://localhost:${server.port}/eureka/
-  server:
-    enableSelfPreservation: false
   instance:  
     leaseRenewalIntervalInSeconds: 1  
     leaseExpirationDurationInSeconds: 2  
