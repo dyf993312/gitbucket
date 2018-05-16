@@ -2,4 +2,4 @@ info:
   profile: dev
 
 server:
-  port : 5500
+  port : 5200
