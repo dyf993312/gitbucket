@@ -1,3 +1,6 @@
+spring:
+  application:
+    name: category
 server:
   port: 8201
   
