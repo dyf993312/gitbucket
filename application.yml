@@ -1,4 +1,14 @@
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
     serviceUrl:
       defaultZone: http://registry:5001/eureka/
+logging:
+  level:
+    org.springframework.security: INFO
+    com.ygxt.toy.mybatis.db.mapper: TRACE
+spring:
+  data:
+    mongodb:
+      uri: mongodb://ygxt:ygyg2017@192.168.10.17:27018/test?authSource=admin
