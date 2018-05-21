@@ -12,3 +12,132 @@ spring:
   data:
     mongodb:
       uri: mongodb://ygxt:ygyg2017@192.168.10.17:27018/test?authSource=admin
+base:
+  grades:
+    - gradeId: 1
+      gradeName: 一年级
+    - gradeId: 2
+      gradeName: 二年级
+    - gradeId: 3
+      gradeName: 三年级
+    - gradeId: 4
+      gradeName: 四年级
+    - gradeId: 5
+      gradeName: 五年级
+    - gradeId: 6
+      gradeName: 六年级
+    - gradeId: 7
+      gradeName: 七年级
+    - gradeId: 8
+      gradeName: 八年级
+    - gradeId: 9
+      gradeName: 九年级
+    - gradeId: 10
+      gradeName: 高一
+    - gradeId: 11
+      gradeName: 高二
+    - gradeId: 12
+      gradeName: 高三
+  stages:
+    - stageId: 1
+      stageName: 小学
+      subjects:
+        - subjectId: 1
+          subjectName: 语文
+        - subjectId: 2
+          subjectName: 数学
+        - subjectId: 3
+          subjectName: 英语
+    - stageId: 2
+      stageName: 中学
+      subjects:
+        - subjectId: 1
+          subjectName: 语文
+        - subjectId: 2
+          subjectName: 数学
+        - subjectId: 3
+          subjectName: 英语
+    - stageId: 3
+      stageName: 高中
+      subjects:
+        - subjectId: 1
+          subjectName: 语文
+        - subjectId: 2
+          subjectName: 数学
+        - subjectId: 3
+          subjectName: 英语
+  plans:
+    - planId: 1
+      planName: 小学五年制
+      stageId: 1
+      stageName: 小学
+      grades:
+        - gradeId: 1
+          gradeName: 一年级
+        - gradeId: 2
+          gradeName: 二年级
+        - gradeId: 3
+          gradeName: 三年级
+        - gradeId: 4
+          gradeName: 四年级
+        - gradeId: 5
+          gradeName: 五年级
+    - planId: 2
+      planName: 小学六年制
+      stageId: 1
+      stageName: 小学
+      grades:
+        - gradeId: 1
+          gradeName: 一年级
+        - gradeId: 2
+          gradeName: 二年级
+        - gradeId: 3
+          gradeName: 三年级
+        - gradeId: 4
+          gradeName: 四年级
+        - gradeId: 5
+          gradeName: 五年级
+        - gradeId: 6
+          gradeName: 六年级
+    - planId: 3
+      planName: 中学三年制
+      stageId: 2
+      stageName: 中学
+      grades:
+        - gradeId: 7
+          gradeName: 七年级
+        - gradeId: 8
+          gradeName: 八年级
+        - gradeId: 9
+          gradeName: 九年级
+    - planId: 4
+      planName: 中学四年制
+      stageId: 2
+      stageName: 中学
+      grades:
+        - gradeId: 6
+          gradeName: 六年级
+        - gradeId: 7
+          gradeName: 七年级
+        - gradeId: 8
+          gradeName: 八年级
+        - gradeId: 9
+          gradeName: 九年级
+    - planId: 5
+      planName: 高中
+      stageId: 3
+      stageName: 高中
+      grades:
+        - gradeId: 10
+          gradeName: 高一
+        - gradeId: 11
+          gradeName: 高二
+        - gradeId: 12
+          gradeName: 高三
+  subjects:
+    - subjectId: 1
+      subjectName: 语文
+    - subjectId: 2
+      subjectName: 数学
+    - subjectId: 3
+      subjectName: 英语
