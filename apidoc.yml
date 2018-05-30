@@ -20,3 +20,5 @@ ygxt:
         name: 基础系统
       - code: klass
         name: 班级系统
+      - code: lesson
+        name: 在线课堂
