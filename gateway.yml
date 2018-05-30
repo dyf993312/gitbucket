@@ -4,6 +4,7 @@ server:
 zuul:
   sensitiveHeaders: Cookie,Set-Cookie
   ignored-services: '*'
+  prefix: /api
   routes:
     apidoc-route:
       path: /apidoc/**
