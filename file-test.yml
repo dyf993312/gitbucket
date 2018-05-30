@@ -20,6 +20,9 @@ fastdfs:
     uri: 192.168.10.17
     defaultGroup: group1
 ygxt:
+  swagger2:
+    enable: true
+    code: auth
   file:
     # FastDfs存储的文件访问根路径
     fastdfsUrl: http://192.168.10.17:9092
