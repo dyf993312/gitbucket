@@ -1,8 +1,5 @@
-info:
-  profile: dev
-
 server:
-  port : 5011
+  port : 6011
   
 spring:
   data:
