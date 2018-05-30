@@ -11,6 +11,9 @@ zuul:
     auth-route:
       path: /auth/**
       serviceId: auth
+    file-route:
+      path: /file/**
+      serverId: file
 
 logging:
   level:
