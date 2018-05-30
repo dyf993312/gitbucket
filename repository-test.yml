@@ -3,7 +3,7 @@ spring:
     name: repository
   data:
     mongodb:
-      uri: mongodb://ygxt:ygyg2017@192.168.10.17:27018/zujuan?authSource=admin
+      uri: mongodb://ygxt:ygyg2017@192.168.10.140:27018/ygxt?authSource=admin
       # uri: mongodb://127.0.0.1/ygxt
 server:
   port: 8202
