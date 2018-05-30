@@ -1,9 +1,5 @@
-info:
-  profile: dev
-
 server:
-  port : 5011
-  
+  port : 5012
 spring:
   data:
     mongodb:
