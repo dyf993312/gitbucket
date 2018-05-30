@@ -12,3 +12,7 @@ ygxt:
         name: 作业系统
       - code: user
         name: 用户系统
+      - code: repository
+        name: 资源库
+      - code: category
+        name: 目录分类
