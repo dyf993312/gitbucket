@@ -6,6 +6,8 @@ ygxt:
     modules:
       - code: auth
         name: 认证系统
+      - code: file
+        name: 文件系统
       - code: work
         name: 作业系统
       - code: user
