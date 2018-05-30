@@ -4,6 +4,23 @@ spring:
     port: 5672
     username: ygxt
     password: ygyg2017
+  data:
+    mongodb:
+      uri: mongodb://ygxt:ygyg2017@192.168.10.140:27018/test?authSource=admin
+  datasource:
+    url: jdbc:mysql://192.168.10.140/ygxt?useUnicode=true&ampcharacterEncoding=utf8&ampzeroDateTimeBehavior=convertToNull&ampuseSSL=false
+    username: ygxt
+    password: ygyg2017
+    druid:
+      initialSize: 1
+      maxActive: 8
+      minIdle: 1
+      maxWait: 10000
+      validationQuery: SELECT 1
+      validationQueryTimeout: 5000
+      testOnBorrow: true
+      testOnReturn: false
+      testWhileIdle: true
 ygxt:
   swagger2:
     enable: true
