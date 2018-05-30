@@ -1,0 +1,30 @@
+server:
+  port: 5031
+spring:
+  servlet:
+    multipart:
+      maxFileSize: 100Mb
+  http:
+    multipart:
+      maxRequestSize: 100Mb
+  data:
+    mongodb:
+      uri: mongodb://ygxt:ygyg2017@192.168.10.140:27018/ygxt?authSource=admin
+  rabbitmq:
+    host: 192.168.10.140
+    port: 5672
+    username: ygxt
+    password: ygyg2017
+fastdfs:
+  tracker:
+    uri: 192.168.10.17
+    defaultGroup: group1
+ygxt:
+  swagger2:
+    enable: true
+    code: file
+  file:
+    # FastDfs存储的文件访问根路径
+    fastdfsUrl: http://192.168.10.17:9092
+    # OfficeWeb365应用访问根路径
+    officeWebUrl: http://192.168.10.19:8088
