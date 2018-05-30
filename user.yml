@@ -1,6 +1,3 @@
-info:
-  profile: dev
-
 server:
   port : 5011
   
