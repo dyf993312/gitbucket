@@ -13,7 +13,13 @@ zuul:
       serviceId: auth
     file-route:
       path: /file/**
-      serverId: file
+      serviceId: file
+    repository-route:
+      path: /repository/**
+      serviceId: repository
+    category-route:
+      path: /category/**
+      serviceId: category
 
 logging:
   level:
