@@ -1,0 +1,12 @@
+server:
+  port: 5005
+
+ygxt:
+  swagger2:
+    modules:
+      - code: auth
+        name: 认证系统
+      - code: work
+        name: 作业系统
+      - code: user
+        name: 用户系统
