@@ -4,6 +4,9 @@ spring:
     port: 5672
     username: ygxt
     password: ygyg2017
+ygxt:
+  swagger2:
+    enable: true
 
 base:
   grades:
