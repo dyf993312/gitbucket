@@ -14,6 +14,12 @@ zuul:
     file-route:
       path: /file/**
       serviceId: file
+    work-route:
+      path: /work/**
+      serviceId: work
+    lesson-route:
+      path: /lesson/**
+      serviceId: lesson
     repository-route:
       path: /repository/**
       serviceId: repository
