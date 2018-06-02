@@ -22,3 +22,5 @@ ygxt:
         name: 班级系统
       - code: lesson
         name: 在线课堂
+      - code: mall
+        name: 商城系统

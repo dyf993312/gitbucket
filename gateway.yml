@@ -11,6 +11,9 @@ zuul:
     auth-route:
       path: /auth/**
       serviceId: auth
+    mall-route:
+      path: /user/**
+      serviceId: user
     file-route:
       path: /file/**
       serviceId: file
@@ -26,6 +29,9 @@ zuul:
     category-route:
       path: /category/**
       serviceId: category
+    mall-route:
+      path: /mall/**
+      serviceId: mall
 
 logging:
   level:
