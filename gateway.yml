@@ -11,7 +11,7 @@ zuul:
     auth-route:
       path: /auth/**
       serviceId: auth
-    mall-route:
+    user-route:
       path: /user/**
       serviceId: user
     file-route:
