@@ -32,6 +32,12 @@ zuul:
     mall-route:
       path: /mall/**
       serviceId: mall
+    klass-route:
+      path: /klass/**
+      serviceId: klass
+    base-route:
+      path: /base/**
+      serviceId: base
 
 logging:
   level:
