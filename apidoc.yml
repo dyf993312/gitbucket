@@ -24,3 +24,5 @@ ygxt:
         name: 在线课堂
       - code: mall
         name: 商城系统
+      - code: message
+        name: 消息服务
