@@ -38,6 +38,9 @@ zuul:
     base-route:
       path: /base/**
       serviceId: base
+    message-route:
+      path: /message/**
+      serviceId: message
 
 logging:
   level:
