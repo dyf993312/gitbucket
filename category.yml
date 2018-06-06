@@ -1,12 +1,2 @@
-spring:
-  application:
-    name: category
-  data:
-    mongodb:
-      uri: mongodb://ygxt:ygyg2017@192.168.10.140:27018/ygxt?authSource=admin
 server:
   port: 8201
-ygxt:
-  swagger2:
-    enable: true
-    code: category
