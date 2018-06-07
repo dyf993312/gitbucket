@@ -1,6 +1,2 @@
 server:
   port : 7001
-spring:
-  data:
-    mongodb:
-      uri: mongodb://ygxt:ygyg2017@192.168.10.140:27018/test?authSource=admin
