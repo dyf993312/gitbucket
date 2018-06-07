@@ -26,3 +26,5 @@ ygxt:
         name: 商城系统
       - code: message
         name: 消息服务
+      - code: courseschedule
+        name: 排课系统
