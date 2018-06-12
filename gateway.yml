@@ -41,7 +41,7 @@ zuul:
     message-route:
       path: /message/**
       serviceId: message
-    message-route:
+    courseschedule-route:
       path: /courseschedule/**
       serviceId: courseschedule
 
