@@ -41,6 +41,9 @@ zuul:
     message-route:
       path: /message/**
       serviceId: message
+    message-route:
+      path: /courseschedule/**
+      serviceId: courseschedule
 
 logging:
   level:
