@@ -6,6 +6,9 @@ spring:
     port: 5672
     username: ygxt
     password: ygyg2017
+  redis:
+    host: 192.168.10.140
+    password: Password@1
   data:
     mongodb:
       uri: mongodb://ygxt:ygyg2017@192.168.10.140:27018/ygxt?authSource=admin
