@@ -6,6 +6,13 @@ spring:
     port: 5672
     username: ygxt
     password: ygyg2017
+    listener:
+      simple:
+        retry:
+          enabled: true
+    template:
+      retry:
+        enabled: true
   redis:
     host: 192.168.10.140
     password: Password@1
