@@ -1,2 +1,7 @@
 server:
   port: 9999
+spring:
+  rabbitmq:
+    listener:
+      simple:
+        concurrency: 10
