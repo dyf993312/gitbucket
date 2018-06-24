@@ -3,6 +3,4 @@ lesson:
   server:
     port: 7010
     logLevel: INFO
-  api:
-    fake: true
     
