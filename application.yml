@@ -34,6 +34,9 @@ spring:
       testOnReturn: false
       testWhileIdle: true
 ygxt:
+  security:
+    service:
+      accessToken: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZXJ2aWNlIiwiZXhwIjoxNjg3NTkyNzk2LCJ1aWQiOjAsImtpZCI6MCwibmFtZSI6InNlcnZpY2UiLCJ0eXAiOiJhY2MiLCJwaWQiOiIiLCJyaWQiOjEwMCwiYXVzIjoiUk9MRV9TRVJWSUNFIiwic2lkIjowfQ.VM4eshMwQheE4PjAp9QI783RCMiAsq4rxN99pz7JYQA
   swagger2:
     enable: true
     
