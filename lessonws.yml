@@ -4,5 +4,5 @@ lesson:
     port: 7010
     logLevel: INFO
     ssl:
-      enabled: true
+      enabled: false
       testing: true
