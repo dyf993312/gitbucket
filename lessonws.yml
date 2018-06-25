@@ -3,4 +3,6 @@ lesson:
   server:
     port: 7010
     logLevel: INFO
-    
+    ssl:
+      enabled: true
+      testing: true
