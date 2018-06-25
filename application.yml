@@ -36,7 +36,7 @@ spring:
 ygxt:
   security:
     service:
-      accessToken: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZXJ2aWNlIiwiZXhwIjoxNjg3NTkyNzk2LCJ1aWQiOjAsImtpZCI6MCwibmFtZSI6InNlcnZpY2UiLCJ0eXAiOiJhY2MiLCJwaWQiOiIiLCJyaWQiOjEwMCwiYXVzIjoiUk9MRV9TRVJWSUNFIiwic2lkIjowfQ.VM4eshMwQheE4PjAp9QI783RCMiAsq4rxN99pz7JYQA
+      accessToken: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZXJ2aWNlIiwiZXhwIjoxNjg3NTkzNDU4LCJ1aWQiOjAsImtpZCI6MCwibmFtZSI6InNlcnZpY2UiLCJ0eXAiOiJhY2MiLCJwaWQiOiIiLCJyaWQiOjEwMCwiYXVzIjpbIlJPTEVfU0VSVklDRSJdLCJzaWQiOjB9.H0gdVaXcUmgsa3crQXjqbZaxwsc813b36-T8PzN9tFs
   swagger2:
     enable: true
     
