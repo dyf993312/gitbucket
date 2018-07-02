@@ -48,3 +48,9 @@ zuul:
 logging:
   level:
     org.springframework: INFO
+
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+    
+    
