@@ -82,7 +82,7 @@ base:
           subjectName: 艺术
     2:
       stageId: 2
-      stageName: 中学
+      stageName: 初中
       subjects:
         - subjectId: 1
           subjectName: 语文
@@ -167,9 +167,9 @@ base:
           gradeName: 六年级
     3:
       planId: 3
-      planName: 中学三年制
+      planName: 初中三年制
       stageId: 2
-      stageName: 中学
+      stageName: 初中
       grades:
         - gradeId: 7
           gradeName: 七年级
@@ -179,9 +179,9 @@ base:
           gradeName: 九年级
     4:
       planId: 4
-      planName: 中学四年制
+      planName: 初中四年制
       stageId: 2
-      stageName: 中学
+      stageName: 初中
       grades:
         - gradeId: 6
           gradeName: 六年级
