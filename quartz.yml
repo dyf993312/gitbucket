@@ -1,0 +1,26 @@
+spring:
+  quartz:
+    job-store-type: jdbc
+    jdbc:
+      initialize-schema: never
+    properties:
+      org:
+        quartz:
+          scheduler:
+            instanceName: YgxtCloudScheduler
+            instanceId: AUTO
+            wrapJobExecutionInUserTransaction: false
+          jobStore:
+            class: org.quartz.impl.jdbcjobstore.JobStoreTX
+            driverDelegateClass: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
+            tablePrefix: QRTZ_
+            isClustered: true
+            clusterCheckinInterval: 10000
+            misfireThreshold: 60000
+          threadPool:
+            class: org.quartz.simpl.SimpleThreadPool
+            threadCount: 10
+            threadPriority: 5
+            threadsInheritContextClassLoaderOfInitializingThread: true
+server:
+  port: 5020
