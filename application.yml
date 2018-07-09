@@ -56,6 +56,8 @@ fastdfs:
     defaultGroup: group1
 logging:
   path: log/
+  level:
+    io.swagger: ERROR
 
 base:
   grades:
