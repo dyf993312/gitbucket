@@ -84,14 +84,10 @@ base:
           subjectName: 数学
         - subjectId: 3
           subjectName: 英语
-        - subjectId: 4
-          subjectName: 品德与生活
-        - subjectId: 5
-          subjectName: 科学
-        - subjectId: 6
-          subjectName: 体育
         - subjectId: 7
-          subjectName: 艺术
+          subjectName: 科学
+        - subjectId: 8
+          subjectName: 政治思品
     2:
       stageId: 2
       stageName: 初中
@@ -102,14 +98,24 @@ base:
           subjectName: 数学
         - subjectId: 3
           subjectName: 英语
+        - subjectId: 4
+          subjectName: 物理
         - subjectId: 5
-          subjectName: 科学
+          subjectName: 化学
         - subjectId: 6
-          subjectName: 体育
-        - subjectId: 8
-          subjectName: 历史与社会
+          subjectName: 生物
+        - subjectId: 7
+          subjectName: 科学
+		- subjectId: 8
+          subjectName: 政治思品
         - subjectId: 9
-          subjectName: 思想品德
+          subjectName: 历史
+        - subjectId: 10
+          subjectName: 地理
+        - subjectId: 11
+          subjectName: 历史与社会
+        - subjectId: 12
+          subjectName: 社会思品
     3:
       stageId: 3
       stageName: 高中
@@ -120,28 +126,20 @@ base:
           subjectName: 数学
         - subjectId: 3
           subjectName: 英语
-        - subjectId: 6
-          subjectName: 体育
-        - subjectId: 10
+        - subjectId: 4
           subjectName: 物理
-        - subjectId: 11
+        - subjectId: 5
           subjectName: 化学
-        - subjectId: 12
+        - subjectId: 6
           subjectName: 生物
-        - subjectId: 13
+		- subjectId: 8
+          subjectName: 政治思品
+        - subjectId: 9
           subjectName: 历史
-        - subjectId: 14
+        - subjectId: 10
           subjectName: 地理
-        - subjectId: 15
-          subjectName: 政治
-        - subjectId: 16
-          subjectName: 音乐
-        - subjectId: 17
-          subjectName: 美术
-        - subjectId: 18
-          subjectName: 信息
-        - subjectId: 19
-          subjectName: 通信技术
+        - subjectId: 13
+          subjectName: 信息技术
   plans:
     1:
       planId: 1
@@ -219,22 +217,16 @@ base:
     1: 语文
     2: 数学
     3: 英语
-    4: 品德与生活
-    5: 科学
-    6: 体育
-    7: 艺术
-    8: 历史与社会
-    9: 思想品德
-    10: 物理
-    11: 化学
-    12: 生物
-    13: 历史
-    14: 地理
-    15: 政治
-    16: 音乐
-    17: 美术
-    18: 信息
-    19: 通信技术
+    4: 物理
+    5: 化学
+    6: 生物
+    7: 科学
+    8: 政治思品
+    9: 历史
+    10: 地理
+    11: 历史与社会
+    12: 社会思品
+    13: 信息技术
   roles:
     1: 学生
     2: 老师
