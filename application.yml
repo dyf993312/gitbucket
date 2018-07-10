@@ -132,7 +132,7 @@ base:
           subjectName: 化学
         - subjectId: 6
           subjectName: 生物
-		- subjectId: 8
+        - subjectId: 8
           subjectName: 政治思品
         - subjectId: 9
           subjectName: 历史
