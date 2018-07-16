@@ -20,6 +20,9 @@ zuul:
     work-route:
       path: /work/**
       serviceId: work
+    work-route:
+      path: /diag/**
+      serviceId: diag
     lesson-route:
       path: /lesson/**
       serviceId: lesson
