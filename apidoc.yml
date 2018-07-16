@@ -30,3 +30,5 @@ ygxt:
         name: 消息服务
       - code: courseschedule
         name: 排课系统
+      - code: note
+        name: 笔记
