@@ -11,6 +11,14 @@ management:
         include: "*"
 
 spring:
+  sleuth:
+    web:
+      client:
+        enabled: true
+    sampler:
+      probability: 1.0
+  zipkin:
+    base-url: http://192.168.10.140:9411/
   rabbitmq:
     host: 192.168.10.140
     port: 5672
