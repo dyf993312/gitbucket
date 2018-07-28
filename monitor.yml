@@ -1,0 +1,15 @@
+server:
+  port: 5031
+
+logging:
+  path: log/
+  level:
+    org.springframework.cloud.netflix.zuul.filters.post.SendErrorFilter: error
+
+eureka: 
+  instance:
+    leaseRenewalIntervalInSeconds: 30
+    health-check-url-path: /actuator/health
+  client:
+    registryFetchIntervalSeconds: 15
+

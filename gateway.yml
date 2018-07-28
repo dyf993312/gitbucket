@@ -47,6 +47,9 @@ zuul:
     courseschedule-route:
       path: /courseschedule/**
       serviceId: courseschedule
+    note-route:
+      path: /note/**
+      serviceId: note
 
 logging:
   level:

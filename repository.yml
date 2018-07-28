@@ -6,4 +6,4 @@ spring:
 elasticsearch:
   hosts: http://192.168.10.140:9200
 server:
-    port: 6020
+    port: 6010
