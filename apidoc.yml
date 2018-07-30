@@ -32,3 +32,5 @@ ygxt:
         name: 排课系统
       - code: note
         name: 笔记
+      - code: wrongwork
+        name: 错题本

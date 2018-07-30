@@ -50,6 +50,9 @@ zuul:
     note-route:
       path: /note/**
       serviceId: note
+    wrongwork-route:
+      path: /wrongwork/**
+      serviceId: wrongwork
 
 logging:
   level:
