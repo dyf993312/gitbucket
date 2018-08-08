@@ -1,6 +1,9 @@
 server:
   port: 6014
 spring:
+  data:
+    mongodb:
+      uri: mongodb://ygxt:ygyg2017@192.168.10.140:27018/lesson?authSource=admin
   rabbitmq:
     listener:
       simple:
