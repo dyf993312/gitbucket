@@ -34,3 +34,5 @@ ygxt:
         name: 笔记
       - code: wrongwork
         name: 错题本
+      - code: notice
+        name: 通知
