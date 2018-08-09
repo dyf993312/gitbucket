@@ -53,7 +53,7 @@ zuul:
     wrongwork-route:
       path: /wrongwork/**
       serviceId: wrongwork
-    wrongwork-route:
+    notice-route:
       path: /notice/**
       serviceId: notice
 
