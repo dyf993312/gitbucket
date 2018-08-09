@@ -53,6 +53,9 @@ zuul:
     wrongwork-route:
       path: /wrongwork/**
       serviceId: wrongwork
+    wrongwork-route:
+      path: /notice/**
+      serviceId: notice
 
 logging:
   level:
@@ -70,4 +73,3 @@ hystrix:
   command:
 #    default.execution.isolation.thread.timeoutInMilliseconds: 60000
     file.execution.isolation.thread.timeoutInMilliseconds: 63000
-    
