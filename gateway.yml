@@ -56,6 +56,9 @@ zuul:
     notice-route:
       path: /notice/**
       serviceId: notice
+    record-route:
+      path: /record/**
+      serviceId: record
 
 logging:
   level:
