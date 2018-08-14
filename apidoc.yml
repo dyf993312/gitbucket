@@ -36,3 +36,5 @@ ygxt:
         name: 错题本
       - code: notice
         name: 通知
+      - code: record
+        name: 录像
