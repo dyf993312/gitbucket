@@ -38,3 +38,5 @@ ygxt:
         name: 通知
       - code: record
         name: 录像
+      - code: repository1.1
+        name: 资源库1.1
