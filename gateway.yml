@@ -29,6 +29,9 @@ zuul:
     repository-route:
       path: /repository/**
       serviceId: repository
+    repository1_1-route:
+      path: /repository1_1/**
+      serviceId: repository1_1
     category-route:
       path: /category/**
       serviceId: category
