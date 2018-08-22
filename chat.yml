@@ -1,0 +1,19 @@
+server:
+  port: 6017
+
+ygxt:
+  chat:
+    instanceId: ${spring.cloud.client.hostname}
+  socket:
+    impl: vertx
+    port: 8888
+    executor:
+      corePoolSize: 1
+      maxPoolSize: 50
+      keepAliveSeconds: 60
+  getui:
+    enable: true
+    appId: U1v0pvroqg9yUej2ZBGAT5
+    appKey: wwTmgJlXkm6098pc7BwnN1
+    appSecret: HQpAo1x3o4AIk0wmZRUlW8
+    appHost: http://sdk.open.api.igexin.com/apiex.htm

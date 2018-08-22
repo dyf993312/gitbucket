@@ -62,6 +62,9 @@ zuul:
     record-route:
       path: /record/**
       serviceId: record
+    chat-route:
+      path: /chat/**
+      serviceId: chat
 
 logging:
   level:
