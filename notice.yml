@@ -1,5 +1,5 @@
 server:
-  port: 6058
+  port: 6018
 management:
   server:
-    port: 7058
+    port: 7018
