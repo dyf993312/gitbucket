@@ -1,7 +1,8 @@
 server:
   port: 6011
 management:
-  port: 7011
+  server:
+    port: 7011
 spring:
   servlet:
     multipart:
