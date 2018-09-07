@@ -24,3 +24,6 @@ spring:
             threadsInheritContextClassLoaderOfInitializingThread: true
 server:
   port: 5020
+management:
+  server:
+    port: 7020

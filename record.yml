@@ -1,5 +1,8 @@
 server:
   port: 6016
+management:
+  server:
+    port: 7016
 spring:
   data:
     mongodb:

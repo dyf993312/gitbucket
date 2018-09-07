@@ -1,5 +1,8 @@
 server:
   port: 5021
+management:
+  server:
+    port: 5022
 
 zuul:
   sensitiveHeaders: Cookie,Set-Cookie

@@ -1,2 +1,5 @@
 server:
     port: 6001
+management:
+  server:
+    port: 7001

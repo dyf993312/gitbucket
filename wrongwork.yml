@@ -1,2 +1,5 @@
 server:
   port: 6015
+management:
+  server:
+    port: 7015
