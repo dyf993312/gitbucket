@@ -54,6 +54,11 @@ spring:
       testOnReturn: false
       testWhileIdle: true
 ygxt:
+  feign:
+    # 是否启用服务认证
+    authAccessToken: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZXJ2aWNlIiwiZXhwIjoxNjg3NTkzNDU4LCJ1aWQiOjAsImtpZCI6MCwibmFtZSI6InNlcnZpY2UiLCJ0eXAiOiJhY2MiLCJwaWQiOiIiLCJyaWQiOjEwMCwiYXVzIjpbIlJPTEVfU0VSVklDRSJdLCJzaWQiOjB9.H0gdVaXcUmgsa3crQXjqbZaxwsc813b36-T8PzN9tFs
+    # 是否启用远程调用异常解析
+    parseRemoteError: true
   security:
     service:
       accessToken: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZXJ2aWNlIiwiZXhwIjoxNjg3NTkzNDU4LCJ1aWQiOjAsImtpZCI6MCwibmFtZSI6InNlcnZpY2UiLCJ0eXAiOiJhY2MiLCJwaWQiOiIiLCJyaWQiOjEwMCwiYXVzIjpbIlJPTEVfU0VSVklDRSJdLCJzaWQiOjB9.H0gdVaXcUmgsa3crQXjqbZaxwsc813b36-T8PzN9tFs
