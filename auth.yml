@@ -1,0 +1,5 @@
+server:
+    port: 6000
+management:
+  server:
+    port: 7000
