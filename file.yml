@@ -6,5 +6,5 @@ management:
 spring:
   servlet:
     multipart:
-      maxFileSize: 100Mb
-      maxRequestSize: 100Mb
+      maxFileSize: 500Mb
+      maxRequestSize: 500Mb
