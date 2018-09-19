@@ -73,16 +73,22 @@ logging:
   level:
     org.springframework: INFO
 
-ribbon:
-  ConnectTimeout: 3000
-  ReadTimeout: 60000
-hystrix:
-  command:
-    default.execution.isolation.thread.timeoutInMilliseconds: 60000
-
+#ribbon:
+#  ConnectTimeout: 3000
+#  ReadTimeout: 60000
+user:
+  ribbon:
+    ConnectTimeout: 3000
+    ReadTimeout: 5000
 file:
   ribbon:
     ConnectTimeout: 3000
     ReadTimeout: 60000
+
+hystrix:
+  command:
+#    default.execution.isolation.thread.timeoutInMilliseconds: 60000
+    file.execution.isolation.thread.timeoutInMilliseconds: 63000
+    user.execution.isolation.thread.timeoutInMilliseconds: 8000
     
 
