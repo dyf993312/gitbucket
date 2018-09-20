@@ -83,12 +83,12 @@ user:
 file:
   ribbon:
     ConnectTimeout: 3000
-    ReadTimeout: 60000
+    ReadTimeout: 180000
 
 hystrix:
   command:
 #    default.execution.isolation.thread.timeoutInMilliseconds: 60000
-    file.execution.isolation.thread.timeoutInMilliseconds: 63000
+    file.execution.isolation.thread.timeoutInMilliseconds: 183000
     user.execution.isolation.thread.timeoutInMilliseconds: 8000
     
 
