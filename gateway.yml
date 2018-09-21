@@ -32,9 +32,6 @@ zuul:
     repository-route:
       path: /repository/**
       serviceId: repository
-    repository1-route:
-      path: /repository1/**
-      serviceId: repository1
     category-route:
       path: /category/**
       serviceId: category
@@ -90,5 +87,3 @@ hystrix:
 #    default.execution.isolation.thread.timeoutInMilliseconds: 60000
     file.execution.isolation.thread.timeoutInMilliseconds: 183000
     user.execution.isolation.thread.timeoutInMilliseconds: 8000
-    
-
