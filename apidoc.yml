@@ -40,5 +40,3 @@ ygxt:
         name: 录像
       - code: chat
         name: 云信
-      - code: repository1
-        name: 资源库1.1
