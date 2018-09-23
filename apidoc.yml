@@ -40,3 +40,5 @@ ygxt:
         name: 录像
       - code: chat
         name: 云信
+      - code: incentive
+        name: 激励系统

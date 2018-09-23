@@ -81,3 +81,4 @@ ygxt:
 |Record    |6016      |7016      |
 |Chat      |6017      |7017      |
 |Notice    |6018      |7018      |
+|Incentive |6019      |7019      |
