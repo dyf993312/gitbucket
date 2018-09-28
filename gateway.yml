@@ -65,7 +65,7 @@ zuul:
     chat-route:
       path: /chat/**
       serviceId: chat
-    chat-route:
+    incentive-route:
       path: /incentive/**
       serviceId: incentive
 
