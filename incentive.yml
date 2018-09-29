@@ -6,4 +6,4 @@ management:
 logging:
   path: mongo/
   level:
-    org.mongodb.driver: DEBUG
+    org.mongodb.driver.protocol.query: DEBUG
