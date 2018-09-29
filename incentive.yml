@@ -3,3 +3,7 @@ server:
 management:
   server:
     port: 7019
+logging:
+  path: mongo/
+  level:
+    org.springframework.data.mongodb.core: DEBUG
