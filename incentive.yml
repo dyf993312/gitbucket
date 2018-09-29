@@ -3,7 +3,3 @@ server:
 management:
   server:
     port: 7019
-logging:
-  path: mongo/
-  level:
-    org.mongodb.driver.*: DEBUG
