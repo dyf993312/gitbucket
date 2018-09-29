@@ -6,4 +6,4 @@ management:
 logging:
   path: mongo/
   level:
-    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+    org.mongodb.driver: DEBUG
