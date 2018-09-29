@@ -1,38 +1,46 @@
 server:
   port: 5021
 
-zuul:
-  sensitiveHeaders: Cookie,Set-Cookie
-  ignored-services: '*'
-  routes:
-    apidoc-route:
-      path: /apidoc/**
-      serviceId: apidoc
-    auth-route:
-      path: /auth/**
-      serviceId: auth
-    mall-route:
-      path: /user/**
-      serviceId: user
-    file-route:
-      path: /file/**
-      serviceId: file
-    work-route:
-      path: /work/**
-      serviceId: work
-    lesson-route:
-      path: /lesson/**
-      serviceId: lesson
-    repository-route:
-      path: /repository/**
-      serviceId: repository
-    category-route:
-      path: /category/**
-      serviceId: category
-    mall-route:
-      path: /mall/**
-      serviceId: mall
+spring:
+  cloud:
+    gateway:
+      # 开启SpringCloudGateway
+      enabled: true
+      discovery:
+        locator:
+          # 开启路由服务发现
+          enabled: true
+          # 使用小写服务名称
+          lowerCaseServiceId: true
 
 logging:
   level:
     org.springframework: INFO
+
+logging:
+  level:
+    org.springframework: INFO
+
+#ribbon:
+#  ConnectTimeout: 3000
+#  ReadTimeout: 60000
+file:
+  ribbon:
+    ConnectTimeout: 3000
+    ReadTimeout: 60000
+user:
+  ribbon:
+    ConnectTimeout: 1000
+    ReadTimeout: 5000
+repository:
+  ribbon:
+    ConnectTimeout: 1000
+    ReadTimeout: 5000
+
+hystrix:
+  command:
+#    default.execution.isolation.thread.timeoutInMilliseconds: 60000
+    file.execution.isolation.thread.timeoutInMilliseconds: 63000
+    user.execution.isolation.thread.timeoutInMilliseconds: 6000
+    repository.execution.isolation.thread.timeoutInMilliseconds: 6000
+
