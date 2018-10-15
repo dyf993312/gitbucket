@@ -27,8 +27,8 @@ base:
           subjectName: 科学
         - subjectId: 8
           subjectName: 政治思品
-		- subjectId: 13
-		  subjectName: 信息技术
+        - subjectId: 13
+          subjectName: 信息技术
         - subjectId: 14
           subjectName: 音乐
         - subjectId: 15
