@@ -27,8 +27,10 @@ base:
           subjectName: 科学
         - subjectId: 8
           subjectName: 政治思品
+		- subjectId: 13
+		  subjectName: 信息技术
         - subjectId: 14
-          subjectName: 音乐          
+          subjectName: 音乐
         - subjectId: 15
           subjectName: 美术
         - subjectId: 16
@@ -40,13 +42,21 @@ base:
         - subjectId: 102
           subjectName: 健康教育
         - subjectId: 103
-          subjectName: 影视  
+          subjectName: 影视
         - subjectId: 104
           subjectName: 少先队活动
         - subjectId: 105
           subjectName: 班会
         - subjectId: 106
           subjectName: 综合实践与信息
+        - subjectId: 107
+          subjectName: 足球
+        - subjectId: 108
+          subjectName: 阅读
+        - subjectId: 109
+          subjectName: 书法
+        - subjectId: 110
+          subjectName: 安全
     2:
       stageId: 2
       stageName: 初中
@@ -196,6 +206,10 @@ base:
     104: 少先队活动
     105: 班会
     106: 综合实践与信息
+    107: 足球
+    108: 阅读
+    109: 书法
+    110: 安全
   roles:
     1: 学生
     2: 老师
