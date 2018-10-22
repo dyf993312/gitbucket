@@ -23,12 +23,6 @@ zuul:
     work-route:
       path: /work/**
       serviceId: work
-    diag-period-route:
-      path: /diag/lesson/**
-      serviceId: diag-lesson
-    diag-period-route:
-      path: /diag/period/**
-      serviceId: diag-period
     diag-route:
       path: /diag/**
       serviceId: diag
