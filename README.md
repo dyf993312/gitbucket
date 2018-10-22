@@ -82,3 +82,5 @@ ygxt:
 |Chat      |6017      |7017      |
 |Notice    |6018      |7018      |
 |Incentive |6019      |7019      |
+|Diag-lesson|6020     |7020      |
+|Diag-period|6021     |7021      |

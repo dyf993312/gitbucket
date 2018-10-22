@@ -1,0 +1,5 @@
+server:
+  port: 6020
+management:
+  server:
+    port: 7020
