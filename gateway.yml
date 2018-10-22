@@ -29,7 +29,7 @@ zuul:
     diag-period-route:
       path: /diag/period/**
       serviceId: diag-period
-    diag-route:
+    diag-preview-route:
       path: /diag/preview/**
       serviceId: diag
     lesson-route:
