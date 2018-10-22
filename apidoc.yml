@@ -12,9 +12,9 @@ ygxt:
         name: 作业系统
       - code: diag
         name: 分析系统
-      - code: diag/lesson
+      - code: diag-lesson
         name: 学情分析（课堂报告）
-      - code: diag/period
+      - code: diag-period
         name: 学情分析（日报周报）
       - code: user
         name: 用户系统
