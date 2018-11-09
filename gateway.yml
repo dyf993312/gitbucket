@@ -74,6 +74,9 @@ zuul:
     incentive-route:
       path: /incentive/**
       serviceId: incentive
+    learn-route
+      path: /learn/**
+      serviceId: learn
 
 logging:
   level:
