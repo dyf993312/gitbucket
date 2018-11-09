@@ -1,0 +1,10 @@
+server:
+    port: 6022
+management:
+  server:
+    port: 7022
+spring:
+  servlet:
+    multipart:
+      maxFileSize: 10Mb
+      maxRequestSize: 10Mb
