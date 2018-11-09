@@ -84,3 +84,4 @@ ygxt:
 |Incentive |6019      |7019      |
 |Diag-lesson|6020     |7020      |
 |Diag-period|6021     |7021      |
+|Learn      |6022     |7022      |
