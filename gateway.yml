@@ -74,9 +74,12 @@ zuul:
     incentive-route:
       path: /incentive/**
       serviceId: incentive
-    learn-route
+    learn-route:
       path: /learn/**
       serviceId: learn
+    repoimpt-route:
+      path: /repoimpt/**
+      serviceId: repoimpt
 
 logging:
   level:
