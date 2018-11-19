@@ -85,3 +85,4 @@ ygxt:
 |Diag-lesson|6020     |7020      |
 |Diag-period|6021     |7021      |
 |Learn      |6022     |7022      |
+|Home      |6023     |7023      |
