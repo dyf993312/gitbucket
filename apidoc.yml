@@ -46,3 +46,5 @@ ygxt:
         name: 云信
       - code: incentive
         name: 激励系统
+      - code: home
+        name: 首页
