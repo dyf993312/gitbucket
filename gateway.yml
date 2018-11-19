@@ -80,6 +80,9 @@ zuul:
     repoimpt-route:
       path: /repoimpt/**
       serviceId: repoimpt
+    home-route:
+      path: /home/**
+      serviceId: home
 
 logging:
   level:
