@@ -48,3 +48,5 @@ ygxt:
         name: 激励系统
       - code: home
         name: 首页
+      - code: exam
+        name: 考试系统

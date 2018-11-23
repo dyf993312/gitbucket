@@ -83,6 +83,9 @@ zuul:
     home-route:
       path: /home/**
       serviceId: home
+    exam-route:
+      path: /exam/**
+      serviceId: exam
 
 logging:
   level:
