@@ -15,9 +15,6 @@ management:
 spring:
   profiles:
     include: base
-  servlet:
-    multipart:
-      location: /data/cloud/tmp
   sleuth:
     web:
       client:
