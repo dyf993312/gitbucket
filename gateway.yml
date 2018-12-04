@@ -89,6 +89,9 @@ zuul:
     word-route:
       path: /word/**
       serviceId: word
+    reading-route:
+      path: /reading/**
+      serviceId: reading
 
 logging:
   level:
