@@ -52,3 +52,5 @@ ygxt:
         name: 考试系统
       - code: word
         name: 自主学习(单词)
+      - code: reading
+        name: 自主学习(阅读)
