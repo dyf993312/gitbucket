@@ -86,6 +86,9 @@ zuul:
     exam-route:
       path: /exam/**
       serviceId: exam
+    word-route:
+      path: /word/**
+      serviceId: word
 
 logging:
   level:
