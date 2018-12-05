@@ -108,6 +108,10 @@ file:
   ribbon:
     ConnectTimeout: 3000
     ReadTimeout: 180000
+mall:
+  ribbon:
+    ConnectTimeout: 3000
+    ReadTimeout: 5000
 
 hystrix:
   command:
