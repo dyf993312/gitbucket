@@ -1,0 +1,5 @@
+server:
+  port: 6027
+management:
+  server:
+    port: 7027

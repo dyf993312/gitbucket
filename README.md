@@ -61,31 +61,32 @@ ygxt:
 
 # 附：项目列表
 
-|Name      |Http Port |Management|
-|:---------|:---------|:---------|
-|Base      |6001      |7001      |
-|User      |6002      |7002      |
-|Klass     |6003      |7003      |
-|CourseSch |6004      |7004      |
-|Note      |6005      |7005      |
-|Mall      |6006      |7006      |
-|Work      |6007      |7007      |
-|Diag      |6008      |7008      |
-|Category  |6009      |7009      |
-|Repository|6010      |7010      |
-|File      |6011      |7011      |
-|Media     |6012      |7012      |
-|Message   |6013      |7013      |
-|Lesson    |6014      |7014      |
-|Wrongwork |6015      |7015      |
-|Record    |6016      |7016      |
-|Chat      |6017      |7017      |
-|Notice    |6018      |7018      |
-|Incentive |6019      |7019      |
-|Diag-lesson|6020     |7020      |
-|Diag-period|6021     |7021      |
-|Learn     |6022      |7022      |
-|Home      |6023      |7023      |
-|Exam      |6024      |7024      |
-|Word      |6025      |7025      |
-|Reading      |6026      |7026      |
+|Name       |Http Port |Management|
+|:----------|:---------|:---------|
+|Base       |6001      |7001      |
+|User       |6002      |7002      |
+|Klass      |6003      |7003      |
+|CourseSch  |6004      |7004      |
+|Note       |6005      |7005      |
+|Mall       |6006      |7006      |
+|Work       |6007      |7007      |
+|Diag       |6008      |7008      |
+|Category   |6009      |7009      |
+|Repository |6010      |7010      |
+|File       |6011      |7011      |
+|Media      |6012      |7012      |
+|Message    |6013      |7013      |
+|Lesson     |6014      |7014      |
+|Wrongwork  |6015      |7015      |
+|Record     |6016      |7016      |
+|Chat       |6017      |7017      |
+|Notice     |6018      |7018      |
+|Incentive  |6019      |7019      |
+|Diag-lesson|6020      |7020      |
+|Diag-period|6021      |7021      |
+|Learn      |6022      |7022      |
+|Home       |6023      |7023      |
+|Exam       |6024      |7024      |
+|Word       |6025      |7025      |
+|Reading    |6026      |7026      |
+|Diag-screen|6027      |7027      |

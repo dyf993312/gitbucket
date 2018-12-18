@@ -92,6 +92,10 @@ zuul:
     reading-route:
       path: /reading/**
       serviceId: reading
+    diag-screen-route:
+      path: /diag/screen/**
+      serviceId: diag-screen
+
 
 logging:
   level:
