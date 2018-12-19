@@ -95,6 +95,9 @@ zuul:
     diag-screen-route:
       path: /diag/screen/**
       serviceId: diag-screen
+    learn-route:
+      path: /preconception/**
+      serviceId: preconception
 
 
 logging:
