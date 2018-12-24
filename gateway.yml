@@ -29,9 +29,6 @@ zuul:
     diag-period-route:
       path: /diag/period/**
       serviceId: diag-period
-    diag-preview-route:
-      path: /diag/preview/**
-      serviceId: diag
     lesson-route:
       path: /lesson/**
       serviceId: lesson
@@ -113,9 +110,15 @@ file:
     ConnectTimeout: 3000
     ReadTimeout: 180000
 
+exam:
+  ribbon:
+    ConnectTimeout: 5000
+    ReadTimeout: 30000
+
 
 hystrix:
   command:
 #    default.execution.isolation.thread.timeoutInMilliseconds: 60000
     file.execution.isolation.thread.timeoutInMilliseconds: 183000
     user.execution.isolation.thread.timeoutInMilliseconds: 8000
+    exam.execution.isolation.thread.timeoutInMilliseconds: 30000
