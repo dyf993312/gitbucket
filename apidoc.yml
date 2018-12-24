@@ -62,3 +62,5 @@ ygxt:
         name: 教学研修
       - code: preconception
         name: 前概念
+      - code: asr
+        name: 语音识别
