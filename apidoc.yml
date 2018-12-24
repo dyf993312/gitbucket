@@ -56,3 +56,9 @@ ygxt:
         name: 自主学习(单词)
       - code: reading
         name: 自主学习(阅读)
+      - code: learn
+        name: 自主学习
+      - code: training
+        name: 教学研修
+      - code: preconception
+        name: 前概念
