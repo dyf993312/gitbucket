@@ -95,7 +95,9 @@ zuul:
     preconception-route:
       path: /preconception/**
       serviceId: preconception
-
+    asr-route:
+      path: /asr/**
+      serviceId: asr
 
 logging:
   level:
