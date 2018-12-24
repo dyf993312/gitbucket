@@ -1,6 +1,7 @@
 baidu:
   aip:
-    appId: 15196354
-    apiKey: BrysT8PVHMDiFWRNfvTDNoqi
-    secretKey: naEnpYyGcD5EKdgmz0fK7nNaGkbILDAa
-    qos: 10
+    asr:
+      appId: 15196354
+      apiKey: BrysT8PVHMDiFWRNfvTDNoqi
+      secretKey: naEnpYyGcD5EKdgmz0fK7nNaGkbILDAa
+      qos: 10
