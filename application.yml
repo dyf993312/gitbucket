@@ -76,3 +76,10 @@ logging:
   path: log/
   level:
     io.swagger: ERROR
+hystrix:
+  command:
+      default:
+        execution:
+          isolation:
+            thread:
+              timeoutInMilliseconds: 5000
