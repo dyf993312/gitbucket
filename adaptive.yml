@@ -1,5 +1,5 @@
 server:
-  port: 6000
+  port: 6029
 management:
   server:
-    port: 7000
+    port: 7029
