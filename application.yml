@@ -76,16 +76,6 @@ logging:
   path: log/
   level:
     io.swagger: ERROR
-feign:
-   hystrix:
-      enabled: true
-hystrix:
-  command:
-      default:
-        execution:
-          isolation:
-            thread:
-              timeoutInMilliseconds: 5000
 ribbon:
    ReadTimeout: 3000
    ConnectTimeout: 2000
