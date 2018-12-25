@@ -76,6 +76,9 @@ logging:
   path: log/
   level:
     io.swagger: ERROR
+feign:
+   hystrix:
+      enabled: true
 hystrix:
   command:
       default:
