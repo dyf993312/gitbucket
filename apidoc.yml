@@ -64,5 +64,5 @@ ygxt:
         name: 前概念
       - code: asr
         name: 语音识别
-      - code: adaptive
+      - code: react
         name: 自适应学习

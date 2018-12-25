@@ -99,8 +99,8 @@ zuul:
       path: /asr/**
       serviceId: asr
     adaptive-route:
-      path: /adaptive/**
-      serviceId: adaptive
+      path: /react/**
+      serviceId: react
 
 logging:
   level:
