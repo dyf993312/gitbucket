@@ -91,3 +91,4 @@ ygxt:
 |Reading    |6026      |7026      |
 |Diag-screen|6027      |7027      |
 |Preconception|6028      |7028      |
+|Adaptive   |6029      |7029      |

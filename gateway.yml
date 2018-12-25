@@ -98,6 +98,9 @@ zuul:
     asr-route:
       path: /asr/**
       serviceId: asr
+    adaptive-route:
+      path: /adaptive/**
+      serviceId: adaptive
 
 logging:
   level:
