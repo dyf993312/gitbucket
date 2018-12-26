@@ -85,6 +85,8 @@ base:
           subjectName: 历史与社会
         - subjectId: 12
           subjectName: 社会思品
+        - subjectId: 111
+          subjectName: 道德与法治
     3:
       stageId: 3
       stageName: 高中
@@ -210,6 +212,7 @@ base:
     108: 阅读
     109: 书法
     110: 安全
+    111: 道德与法治
   roles:
     1: 学生
     2: 老师
