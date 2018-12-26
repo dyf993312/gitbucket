@@ -79,3 +79,12 @@ logging:
 ribbon:
    ReadTimeout: 3000
    ConnectTimeout: 2000
+   eager-load: true
+   clients: user, work
+hystrix:
+  command:
+      default:
+        execution:
+          isolation:
+            thread:
+              timeoutInMilliseconds: 6000
