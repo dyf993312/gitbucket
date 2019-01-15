@@ -77,7 +77,7 @@ logging:
   level:
     io.swagger: ERROR
 ribbon:
-   ReadTimeout: 3000
+   ReadTimeout: 5000
    ConnectTimeout: 2000
    eager-load: true
    clients: user, work
@@ -87,4 +87,4 @@ hystrix:
         execution:
           isolation:
             thread:
-              timeoutInMilliseconds: 6000
+              timeoutInMilliseconds: 8000
