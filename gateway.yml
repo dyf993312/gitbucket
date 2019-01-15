@@ -130,3 +130,4 @@ hystrix:
     file.execution.isolation.thread.timeoutInMilliseconds: 183000
     user.execution.isolation.thread.timeoutInMilliseconds: 8000
     exam.execution.isolation.thread.timeoutInMilliseconds: 30000
+    courseschedule.execution.isolation.thread.timeoutInMilliseconds: 30000
