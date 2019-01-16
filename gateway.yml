@@ -101,6 +101,9 @@ zuul:
     adaptive-route:
       path: /react/**
       serviceId: react
+    voice-route:
+      path: /voice/**
+      serviceId: voice
 
 logging:
   level:

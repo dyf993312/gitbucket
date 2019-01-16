@@ -66,3 +66,5 @@ ygxt:
         name: 语音识别
       - code: react
         name: 自适应学习
+      - code: voice
+        name: 口语测评

@@ -92,3 +92,4 @@ ygxt:
 |Diag-screen|6027      |7027      |
 |Preconception|6028      |7028      |
 |React      |6029      |7029      |
+|voice      |6030      |7030      |
