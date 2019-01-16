@@ -126,6 +126,10 @@ exam:
     ConnectTimeout: 5000
     ReadTimeout: 30000
 
+courseschedule:
+  ribbon:
+    ConnectTimeout: 5000
+    ReadTimeout: 30000
 
 hystrix:
   command:
