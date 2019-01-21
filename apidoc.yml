@@ -68,3 +68,5 @@ ygxt:
         name: 自适应学习
       - code: voice
         name: 口语测评
+      - code: home-edu
+        name: 家庭教育
