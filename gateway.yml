@@ -104,6 +104,9 @@ zuul:
     voice-route:
       path: /voice/**
       serviceId: voice
+    home-edu-route:
+      path: /home_edu/**
+      serviceId: home-edu
 
 logging:
   level:
