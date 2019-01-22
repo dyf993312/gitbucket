@@ -70,3 +70,5 @@ ygxt:
         name: 口语测评
       - code: home-edu
         name: 家庭教育
+      - code: financial
+        name: 余额管理
