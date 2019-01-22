@@ -107,6 +107,9 @@ zuul:
     home-edu-route:
       path: /home_edu/**
       serviceId: home-edu
+    financial-route:
+      path: /financial/**
+      serviceId: financial
 
 logging:
   level:
