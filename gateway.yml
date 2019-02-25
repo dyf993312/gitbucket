@@ -110,6 +110,9 @@ zuul:
     financial-route:
       path: /financial/**
       serviceId: financial
+    campus-route:
+      path: /campus/**
+      serviceId: campus
 
 logging:
   level:
