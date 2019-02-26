@@ -1,1 +1,5 @@
-a
+server:
+  port: 6002
+management:
+  server:
+    port: 7002
