@@ -95,3 +95,4 @@ ygxt:
 |voice      |6030      |7030      |
 |Home-Edu      |6031      |7031      |
 |Financial  |6032      |7032      |
+|campus  |6033      |7033      |
