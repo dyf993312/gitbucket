@@ -96,3 +96,4 @@ ygxt:
 |Home-Edu      |6031      |7031      |
 |Financial  |6032      |7032      |
 |campus  |6033      |7033      |
+|composition  |6034      |7034      |
