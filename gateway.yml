@@ -113,7 +113,9 @@ zuul:
     campus-route:
       path: /campus/**
       serviceId: campus
-
+    composition-route:
+      path: /composition/**
+      serviceId: composition
 logging:
   level:
     org.springframework: INFO
