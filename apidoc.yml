@@ -74,3 +74,5 @@ ygxt:
         name: 余额管理
       - code: campus
         name: 微校园管理
+      - code: composition
+        name: 自主学习(作文)
