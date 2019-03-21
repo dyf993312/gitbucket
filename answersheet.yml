@@ -1,0 +1,5 @@
+server:
+    port: 6035
+management:
+  server:
+    port: 7035
