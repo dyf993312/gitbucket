@@ -76,3 +76,5 @@ ygxt:
         name: 微校园管理
       - code: composition
         name: 自主学习(作文)
+      - code: answersheet
+        name: 线下答题卡

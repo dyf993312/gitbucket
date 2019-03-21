@@ -116,6 +116,9 @@ zuul:
     composition-route:
       path: /composition/**
       serviceId: composition
+    answersheet-route:
+      path: /answersheet/**
+      serviceId: answersheet
 logging:
   level:
     org.springframework: INFO
