@@ -3,3 +3,8 @@ server:
 management:
   server:
     port: 7036
+spring:
+  servlet:
+    multipart:
+      maxFileSize: 10Mb
+      maxRequestSize: 10Mb
