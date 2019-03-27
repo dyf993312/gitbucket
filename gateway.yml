@@ -119,6 +119,9 @@ zuul:
     answersheet-route:
       path: /answersheet/**
       serviceId: answersheet
+    answersheet-route:
+      path: /data/**
+      serviceId: data
 logging:
   level:
     org.springframework: INFO
