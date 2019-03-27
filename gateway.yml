@@ -119,7 +119,7 @@ zuul:
     answersheet-route:
       path: /answersheet/**
       serviceId: answersheet
-    answersheet-route:
+    data-route:
       path: /data/**
       serviceId: data
 logging:
