@@ -98,3 +98,4 @@ ygxt:
 |campus  |6033      |7033      |
 |composition  |6034      |7034      |
 |answersheet  |6035      |7035    |
+|data  |6036      |7036    |
