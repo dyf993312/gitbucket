@@ -80,3 +80,5 @@ ygxt:
         name: 线下答题卡
       - code: data
         name: 处理学生数据
+      - code: recogsheet
+        name: 答题卡识别
