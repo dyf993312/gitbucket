@@ -1,8 +1,8 @@
 server:
-  port: 6026
+  port: 6037
 management:
   server:
-    port: 7026
+    port: 7037
 recogsheet:
   clean:
     lazy: true
