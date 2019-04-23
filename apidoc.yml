@@ -82,3 +82,5 @@ ygxt:
         name: 处理学生数据
       - code: recogsheet
         name: 答题卡识别
+      - code: evaluation
+        name: 学生综合素质评价
