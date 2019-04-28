@@ -122,6 +122,12 @@ zuul:
     data-route:
       path: /data/**
       serviceId: data
+    recogsheet-route:
+      path: /recogsheet/**
+      serviceId: recogsheet
+    evaluation-route:
+      path: /evaluation/**
+      serviceId: evaluation
 logging:
   level:
     org.springframework: INFO

@@ -1,0 +1,8 @@
+server:
+  port: 6037
+management:
+  server:
+    port: 7037
+recogsheet:
+  clean:
+    lazy: true
