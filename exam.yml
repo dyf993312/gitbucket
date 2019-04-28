@@ -4,6 +4,10 @@ management:
   server:
     port: 7024
 spring:
+  servlet:
+    multipart:
+      maxFileSize: 50Mb
+      maxRequestSize: 50Mb
   data:
     mongodb:
       uri: mongodb://ygxt:ygyg2017@192.168.10.140:27018/work?authSource=admin
