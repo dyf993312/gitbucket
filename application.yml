@@ -79,9 +79,13 @@ logging:
   path: log/
   level:
     io.swagger: ERROR
+
+# hystrix超时时间要大于ribbon时间，否则ribbon超时直接熔断，重试机制无效
+# ribbonTimeout= (ribbonReadTimeout + ribbonConnectTimeout) *(maxAutoRetries + 1) * (maxAutoRetriesNextServer + 1)
 ribbon:
    ReadTimeout: 5000
    ConnectTimeout: 2000
+   MaxAutoRetries: 1
    eager-load: true
    clients: user, work
 hystrix:
@@ -90,4 +94,4 @@ hystrix:
         execution:
           isolation:
             thread:
-              timeoutInMilliseconds: 8000
+              timeoutInMilliseconds: 16000

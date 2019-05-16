@@ -160,7 +160,7 @@ courseschedule:
 hystrix:
   command:
 #    default.execution.isolation.thread.timeoutInMilliseconds: 60000
-    file.execution.isolation.thread.timeoutInMilliseconds: 183000
-    user.execution.isolation.thread.timeoutInMilliseconds: 8000
-    exam.execution.isolation.thread.timeoutInMilliseconds: 30000
-    courseschedule.execution.isolation.thread.timeoutInMilliseconds: 186000
+    file.execution.isolation.thread.timeoutInMilliseconds: 370000
+    user.execution.isolation.thread.timeoutInMilliseconds: 18000
+    exam.execution.isolation.thread.timeoutInMilliseconds: 80000
+    courseschedule.execution.isolation.thread.timeoutInMilliseconds: 385000
