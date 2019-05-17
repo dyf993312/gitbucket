@@ -82,15 +82,15 @@ logging:
 
 # hystrix超时时间要大于ribbon时间，否则ribbon超时直接熔断，重试机制无效
 # ribbonTimeout= (ribbonReadTimeout + ribbonConnectTimeout) *(maxAutoRetries + 1) * (maxAutoRetriesNextServer + 1)
-ribbon:
-   ReadTimeout: 5000
-   ConnectTimeout: 2000
-   eager-load: true
-   clients: user, work
+#ribbon:
+#   ReadTimeout: 5000
+#   ConnectTimeout: 2000
+#   eager-load: true
+#   clients: user, work
 hystrix:
   command:
       default:
         execution:
           isolation:
             thread:
-              timeoutInMilliseconds: 16000
+              timeoutInMilliseconds: 100
