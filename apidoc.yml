@@ -86,3 +86,5 @@ ygxt:
         name: 学生综合素质评价
       - code: books
         name: 图书
+      - code: performance
+        name: 绩效考勤
