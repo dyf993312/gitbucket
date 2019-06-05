@@ -131,6 +131,9 @@ zuul:
     books-route:
       path: /books/**
       serviceId: books
+    performance-route:
+      path: /performance/**
+      serviceId: performance  
 logging:
   level:
     org.springframework: INFO
