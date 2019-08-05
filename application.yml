@@ -45,7 +45,7 @@ spring:
     mongodb:
       uri: mongodb://192.168.31.5:27017/admin
   datasource:
-    url: jdbc:mysql://192.168.10.140/ygxt?useUnicode=true&ampcharacterEncoding=utf8&ampzeroDateTimeBehavior=convertToNull&ampuseSSL=false
+    url: jdbc:mysql://192.168.31.5/ygxt?useUnicode=true&ampcharacterEncoding=utf8&ampzeroDateTimeBehavior=convertToNull&ampuseSSL=false
     username: root
     password: 123456
     druid:
