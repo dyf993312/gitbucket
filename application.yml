@@ -30,7 +30,7 @@ spring:
     host: 127.0.0.1
     port: 5672
     username: ygxt
-    password: '{cipher}AQBLyuDklvXGwNlEseD89N9jlmCWEWZRA1yOqDxFpFFh2kz2JGbSiC7gPwaP/OrbCRTSwMoEXgAAvZEeTI+Sye8l7oaS3CQUcGWyKA20T39PiJ3qhnlal39gBd8zPFCCQwPLxy9GjtlTiiKRdRqo4soaRdu6SJdvsS06fY3BpQb/6zp+Z7A4GUj+NfxsYktATp/Hb/VP1rMj8FEdlqRtAHVhDFi5xCSGje8TDvtPVgEguNQXrYzz1CVZ+iHG6swTSI1RtbbSJn2+t2xGNdSeMNK1DLj8goE8J+VsDV5NGzBDfKTDO1jdylIo58wDDauhIL+2Zzmtw3M+NkwUmc9b6KEPgXNw5uknNy+t4RsUP0HkYxDAGI3svj6Ym+D33/q0/HE='
+    password: ygyg2017
     listener:
       simple:
         retry:
