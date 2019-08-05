@@ -43,7 +43,7 @@ spring:
     password: 123321
   data:
     mongodb:
-      uri: mongodb://ygxt:ygyg2017@192.168.31.5:27017/admin
+      uri: mongodb://192.168.31.5:27017/admin
   datasource:
     url: jdbc:mysql://192.168.10.140/ygxt?useUnicode=true&ampcharacterEncoding=utf8&ampzeroDateTimeBehavior=convertToNull&ampuseSSL=false
     username: ygxt
