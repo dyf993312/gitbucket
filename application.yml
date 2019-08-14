@@ -27,10 +27,10 @@ spring:
   zipkin:
     base-url: http://192.168.10.140:9411/
   rabbitmq:
-    host: 127.0.0.1
+    host: 182.16.106.122
     port: 5672
-    username: ygxt
-    password: ygxt2017
+    username: admin
+    password: fucking123
     listener:
       simple:
         retry:
