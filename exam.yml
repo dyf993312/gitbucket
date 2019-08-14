@@ -10,4 +10,6 @@ spring:
       maxRequestSize: 50Mb
   data:
     mongodb:
-      uri: mongodb://ygxt:ygyg2017@192.168.10.140:27018/work?authSource=admin
+      #uri: mongodb://ygxt:ygyg2017@192.168.10.140:27018/work?authSource=admin
+      uri: mongodb://192.168.31.5:27017/admin
+      #uri: mongodb://localhost:27017/ygxt
