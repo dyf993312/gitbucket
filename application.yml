@@ -27,10 +27,10 @@ spring:
   zipkin:
     base-url: http://192.168.10.140:9411/
   rabbitmq:
-    host: 182.16.106.122
+    host: localhost
     port: 5672
-    username: admin
-    password: fucking123
+    username: guest
+    password: guest
     listener:
       simple:
         retry:
