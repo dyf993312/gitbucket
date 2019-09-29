@@ -44,7 +44,7 @@ spring:
   data:
     mongodb:
       #uri: mongodb://192.168.31.5:27017/admin
-      uri: mongodb://admin:root@192.168.31.235:27017/ygxt
+      uri: mongodb://admin:root@192.168.31.104:27017/ygxt
       #uri: mongodb://192.168.31.103:27017/ygxt
       #uri: mongodb://ygxt:ygyg2017@192.168.10.140:27018/ygxt?authSource=admin
   datasource:
