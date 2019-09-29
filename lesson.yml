@@ -8,7 +8,7 @@ spring:
     mongodb:
       #uri: mongodb://ygxt:ygyg2017@192.168.10.140:27018/lesson?authSource=admin
       #uri: mongodb://192.168.31.5:27017/admin
-      uri: mongodb://192.168.31.235:27017/lesson
+      uri: mongodb://admin:root@192.168.31.103:27017/lesson
   rabbitmq:
     listener:
       simple:
