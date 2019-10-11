@@ -77,7 +77,7 @@ ygxt:
     
 fastdfs:
   tracker:
-    uri: 192.168.94.130
+    uri: 192.168.31.103
     defaultGroup: group1
 logging:
   path: log/
