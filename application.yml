@@ -48,7 +48,7 @@ spring:
       #uri: mongodb://192.168.31.103:27017/ygxt
       #uri: mongodb://ygxt:ygyg2017@192.168.10.140:27018/ygxt?authSource=admin
   datasource:
-    url: jdbc:mysql://192.168.31.5/ygxt?useUnicode=true&ampcharacterEncoding=utf8&ampzeroDateTimeBehavior=convertToNull&ampuseSSL=false
+    url: jdbc:mysql://122.112.231.159/ygxt?useUnicode=true&ampcharacterEncoding=utf8&ampzeroDateTimeBehavior=convertToNull&ampuseSSL=false
     #url: jdbc:mysql://192.168.10.140/ygxt?useUnicode=true&ampcharacterEncoding=utf8&ampzeroDateTimeBehavior=convertToNull&ampuseSSL=false
     username: root
     password: 123456
