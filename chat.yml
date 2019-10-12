@@ -8,7 +8,7 @@ spring:
     mongodb:
       #uri: mongodb://ygxt:ygyg2017@192.168.10.140:27018/chat?authSource=admin
       #uri: mongodb://192.168.31.5:27017/admin
-      uri: mongodb://192.168.31.104:27017/chat
+      uri: mongodb://122.112.231.159:27017/chat
       #uri: mongodb://admin:root@192.168.31.103:27017/chat
       
 ygxt:
